@@ -1,10 +1,11 @@
 {
   "name": "astro-rollup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AstroJS utility to resolve ES6 import/export for client side JavaScript",
   "type": "module",
   "private": false,
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "lightrix build src/*.ts src/lib/*.ts"
   },
