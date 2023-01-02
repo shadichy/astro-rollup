@@ -1,0 +1,47 @@
+{
+  "name": "astro-rollup",
+  "version": "0.0.1",
+  "description": "AstroJS utility to resolve ES6 import/export for client side JavaScript",
+  "type": "module",
+  "private": false,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "lightrix build src/*.ts src/lib/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadichy/astro-rollup.git"
+  },
+  "keywords": [
+    "astro-integration",
+    "astro-component",
+    "astro",
+    "compression",
+    "javascript",
+    "rollup",
+    "terser"
+  ],
+  "author": "Shadichy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shadichy/astro-rollup/issues"
+  },
+  "homepage": "https://github.com/shadichy/astro-rollup#readme",
+  "devDependencies": {
+    "@lightrix/config": "0.0.7",
+    "@lightrix/scripts": "0.1.2",
+    "astro": "1.8.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.2.1",
+    "@types/node": "^18.11.18",
+    "files-pipeline": "^0.0.2",
+    "rollup": "^3.1.0",
+    "terser": "^5.16.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
