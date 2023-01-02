@@ -34,11 +34,11 @@
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.2.1",
     "@types/node": "^18.11.18",
     "files-pipeline": "^0.0.2",
-    "rollup": "^3.1.0",
+    "rollup": "^3.9.1",
     "terser": "^5.16.1"
   },
   "publishConfig": {

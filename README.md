@@ -3,8 +3,6 @@
 This **[Astro integration][astro-integration]** resolves `imports`/`exports` ES6 and above 
 for your JavaScript code inside distribution folder.
 
-[JavaScript][terser]
-
 > **Note**
 >
 > `astro-rollup` will not process your requests, only your statically
@@ -54,8 +52,8 @@ import rollup from "astro-rollup";
 // ...
 
 export default defineConfig({
-    integrations: [rollup()],
-    // ...
+	integrations: [rollup()],
+	// ...
 });
 ```
 
@@ -80,7 +78,7 @@ export default defineConfig({
 			path: "./build",
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
@@ -100,7 +98,7 @@ export default defineConfig({
 			path: ["./build", "./dist"],
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
@@ -119,7 +117,7 @@ export default defineConfig({
 			path: new Map([["./input", "./output"]]),
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
@@ -143,7 +141,7 @@ export default defineConfig({
 			],
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
@@ -168,7 +166,7 @@ export default defineConfig({
 			],
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
@@ -185,13 +183,13 @@ import rollup from "astro-rollup";
 export default defineConfig({
 	integrations: [
 		rollup({
-            useTerser: true,
-            terserOptions: {
-                // pass options to terser
-            }
+			useTerser: true,
+			terserOptions: {
+				// pass options to terser
+			}
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
@@ -210,7 +208,7 @@ export default defineConfig({
 			logger: 0,
 		}),
 	],
-    // ...
+	// ...
 });
 ```
 
