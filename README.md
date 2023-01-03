@@ -215,6 +215,7 @@ export default defineConfig({
 [astro-rollup]: https://npmjs.org/astro-rollup
 [rollup]: https://npmjs.org/rollup
 [terser]: https://npmjs.org/terser
+[astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
 
